@@ -14,6 +14,10 @@
 		B89C57361EDD7B3D0059C8BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89C57341EDD7B3D0059C8BF /* LaunchScreen.storyboard */; };
 		B89C57411EDD7B3D0059C8BF /* AcceleromoterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89C57401EDD7B3D0059C8BF /* AcceleromoterTests.swift */; };
 		B89C574C1EDD7B3D0059C8BF /* AcceleromoterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89C574B1EDD7B3D0059C8BF /* AcceleromoterUITests.swift */; };
+		B89C575C1EDD7C5D0059C8BF /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = B89C575A1EDD7C5D0059C8BF /* awa.png */; };
+		B89C575D1EDD7C5D0059C8BF /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = B89C575B1EDD7C5D0059C8BF /* suiheiki.png */; };
+		B89C575F1EDD7FA60059C8BF /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89C575E1EDD7FA60059C8BF /* MeasureViewController.swift */; };
+		B89C57611EDD7FCF0059C8BF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89C57601EDD7FCF0059C8BF /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B89C57471EDD7B3D0059C8BF /* AcceleromoterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceleromoterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89C574B1EDD7B3D0059C8BF /* AcceleromoterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleromoterUITests.swift; sourceTree = "<group>"; };
 		B89C574D1EDD7B3D0059C8BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89C575A1EDD7C5D0059C8BF /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		B89C575B1EDD7C5D0059C8BF /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		B89C575E1EDD7FA60059C8BF /* MeasureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
+		B89C57601EDD7FCF0059C8BF /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,11 @@
 		B89C572A1EDD7B3D0059C8BF /* Acceleromoter */ = {
 			isa = PBXGroup;
 			children = (
+				B89C57591EDD7C5D0059C8BF /* 13_Resource */,
 				B89C572B1EDD7B3D0059C8BF /* AppDelegate.swift */,
 				B89C572D1EDD7B3D0059C8BF /* ViewController.swift */,
+				B89C575E1EDD7FA60059C8BF /* MeasureViewController.swift */,
+				B89C57601EDD7FCF0059C8BF /* ResultViewController.swift */,
 				B89C572F1EDD7B3D0059C8BF /* Main.storyboard */,
 				B89C57321EDD7B3D0059C8BF /* Assets.xcassets */,
 				B89C57341EDD7B3D0059C8BF /* LaunchScreen.storyboard */,
@@ -123,6 +134,15 @@
 				B89C574D1EDD7B3D0059C8BF /* Info.plist */,
 			);
 			path = AcceleromoterUITests;
+			sourceTree = "<group>";
+		};
+		B89C57591EDD7C5D0059C8BF /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B89C575A1EDD7C5D0059C8BF /* awa.png */,
+				B89C575B1EDD7C5D0059C8BF /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +213,7 @@
 				TargetAttributes = {
 					B89C57271EDD7B3D0059C8BF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y65BVE3W82;
 						ProvisioningStyle = Automatic;
 					};
 					B89C573B1EDD7B3D0059C8BF = {
@@ -234,7 +255,9 @@
 			files = (
 				B89C57361EDD7B3D0059C8BF /* LaunchScreen.storyboard in Resources */,
 				B89C57331EDD7B3D0059C8BF /* Assets.xcassets in Resources */,
+				B89C575D1EDD7C5D0059C8BF /* suiheiki.png in Resources */,
 				B89C57311EDD7B3D0059C8BF /* Main.storyboard in Resources */,
+				B89C575C1EDD7C5D0059C8BF /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89C575F1EDD7FA60059C8BF /* MeasureViewController.swift in Sources */,
 				B89C572E1EDD7B3D0059C8BF /* ViewController.swift in Sources */,
 				B89C572C1EDD7B3D0059C8BF /* AppDelegate.swift in Sources */,
+				B89C57611EDD7FCF0059C8BF /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y65BVE3W82;
 				INFOPLIST_FILE = Acceleromoter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Acceleromoter;
@@ -422,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y65BVE3W82;
 				INFOPLIST_FILE = Acceleromoter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Acceleromoter;
